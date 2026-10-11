@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- back card -->
+    <group android:rotation="-10" android:pivotX="100" android:pivotY="100">
+        <path
+            android:fillColor="#1D9E75"
+            android:strokeColor="#0F3D33"
+            android:strokeWidth="3"
+            android:pathData="M60,30 H140 A10,10 0 0 1 150,40 V160 A10,10 0 0 1 140,170 H60 A10,10 0 0 1 50,160 V40 A10,10 0 0 1 60,30 Z" />
+    </group>
+
+    <!-- front card -->
+    <group android:rotation="7" android:pivotX="100" android:pivotY="100">
+        <path
+            android:fillColor="#FFD23F"
+            android:strokeColor="#1B2A5A"
+            android:strokeWidth="3"
+            android:pathData="M60,30 H140 A10,10 0 0 1 150,40 V160 A10,10 0 0 1 140,170 H60 A10,10 0 0 1 50,160 V40 A10,10 0 0 1 60,30 Z" />
+
+        <!-- blue window -->
+        <path
+            android:fillColor="#2B4FA3"
+            android:pathData="M66,40 H134 A6,6 0 0 1 140,46 V104 A6,6 0 0 1 134,110 H66 A6,6 0 0 1 60,104 V46 A6,6 0 0 1 66,40 Z" />
+
+        <!-- radar rings -->
+        <path
+            android:strokeColor="#E8F1FF"
+            android:strokeWidth="3"
+            android:pathData="M74,75 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0" />
+        <path
+            android:strokeColor="#E8F1FF"
+            android:strokeWidth="2"
+            android:pathData="M85,75 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+
+        <!-- crosshair ticks -->
+        <path
+            android:strokeColor="#E8F1FF"
+            android:strokeWidth="2"
+            android:pathData="M100,45 V52 M100,98 V105 M65,75 H72 M128,75 H135" />
+
+        <!-- spark -->
+        <path
+            android:fillColor="#FFD23F"
+            android:pathData="M100,63 L104,71 L112,75 L104,79 L100,87 L96,79 L88,75 L96,71 Z" />
+
+        <!-- text lines -->
+        <path android:fillColor="#1B2A5A" android:pathData="M60,118 H116 V123 H60 Z" />
+        <path android:fillColor="#591B2A5A" android:pathData="M60,128 H140 V132 H60 Z" />
+
+        <!-- energy dots -->
+        <path android:fillColor="#FF6B4A" android:pathData="M61,150 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+        <path android:fillColor="#1D9E75" android:pathData="M77,150 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+        <path android:fillColor="#2B4FA3" android:pathData="M93,150 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+    </group>
+</vector>
